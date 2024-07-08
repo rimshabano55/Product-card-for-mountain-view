@@ -1,0 +1,102 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  display: flex;
+  width: 720px;
+  height: 320px;
+  background-color: #5a5756;
+  gap: 10px;
+  display: flex;
+  margin: 0px auto;
+  padding-left: 20px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+.main-1 {
+  width: 220px;
+  height: 280px;
+  background-color: rgb(242, 242, 235);
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: repeat(330px 330px);
+
+  border-radius: 12px;
+  box-shadow: 0 0 20px 0 black;
+}
+.img-1 {
+  width: 210px;
+  height: 110px;
+  padding-left: 10px;
+  border-radius: 12px;
+  /* padding-top: 10px; */
+}
+.Utah-pic {
+  height: 120px;
+  padding-top: 10px;
+  width: 220px;
+}
+.sunset-head {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sunset-description {
+  font-size: 11px;
+  line-height: 15px;
+  word-spacing: 8px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  /* padding-right: 5px; */
+}
+.btn-1 {
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+  margin: 0px auto;
+  display: flex;
+  background-color: rgb(216, 211, 143);
+  color: black;
+  font-size: 12px;
+  padding-top: 5px;
+  border: none;
+  font-weight: bold;
+  border-radius: 12px;
+}
+.btn-div {
+  width: 220px;
+  height: 30px;
+  padding-top: 10px;
+}
+.btn-1:hover {
+  color: blue;
+  background-color: cadetblue;
+  border-radius: 12px;
+}
+.owner-1 {
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  padding-top: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.span-1:hover {
+  color: orange;
+}
+.head-1 {
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: cornflowerblue;
+}
+.span-2 {
+  font-family: "Sofia", sans-serif;
+  color: darkgoldenrod;
+}
